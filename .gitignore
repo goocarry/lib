@@ -24,3 +24,8 @@ go.work.sum
 # env file
 .env
 .idea
+
+# gendoc assets
+*.docx
+*.xlsx
+*.zip

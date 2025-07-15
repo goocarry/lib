@@ -143,7 +143,7 @@ func checkMin(a, b int) int {
 }
 
 func buildInsertQuery(tableName string, columns []string) string {
-	ph := []string{}
+	var ph []string
 	for i := 0; i < len(columns); i++ {
 		ph = append(ph, "?")
 	}
